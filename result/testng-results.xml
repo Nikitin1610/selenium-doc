@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T23:43:05 GMT" name="vendor-portal" finished-at="2024-07-17T23:43:24 GMT" duration-ms="18999">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T23:43:05 GMT" name="user-sam" finished-at="2024-07-17T23:43:23 GMT" duration-ms="18292">
+      <class name="com.hanoi1610.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@3b79fd76]" started-at="2024-07-17T23:43:05 GMT" name="setDriver" finished-at="2024-07-17T23:43:11 GMT" duration-ms="5764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c7ba306]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@3b79fd76]" started-at="2024-07-17T23:43:11 GMT" name="setPageObjects" finished-at="2024-07-17T23:43:11 GMT" depends-on-methods="com.hanoi1610.tests.AbstractTest.setDriver" duration-ms="463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@3b79fd76]" started-at="2024-07-17T23:43:11 GMT" name="loginTest" finished-at="2024-07-17T23:43:16 GMT" duration-ms="4655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@3b79fd76]" started-at="2024-07-17T23:43:16 GMT" name="dashboardTest" finished-at="2024-07-17T23:43:20 GMT" depends-on-methods="com.hanoi1610.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="4330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@3b79fd76]" started-at="2024-07-17T23:43:20 GMT" name="logoutTest" finished-at="2024-07-17T23:43:23 GMT" depends-on-methods="com.hanoi1610.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="2667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@3b79fd76]" started-at="2024-07-17T23:43:23 GMT" name="quitDriver" finished-at="2024-07-17T23:43:23 GMT" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.hanoi1610.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-sam -->
+    <test started-at="2024-07-17T23:43:05 GMT" name="user-mike" finished-at="2024-07-17T23:43:24 GMT" duration-ms="18884">
+      <class name="com.hanoi1610.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@2a225dd7]" started-at="2024-07-17T23:43:05 GMT" name="setDriver" finished-at="2024-07-17T23:43:11 GMT" duration-ms="5766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4ff8d125]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@2a225dd7]" started-at="2024-07-17T23:43:11 GMT" name="setPageObjects" finished-at="2024-07-17T23:43:11 GMT" depends-on-methods="com.hanoi1610.tests.AbstractTest.setDriver" duration-ms="461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@2a225dd7]" started-at="2024-07-17T23:43:11 GMT" name="loginTest" finished-at="2024-07-17T23:43:16 GMT" duration-ms="5053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@2a225dd7]" started-at="2024-07-17T23:43:16 GMT" name="dashboardTest" finished-at="2024-07-17T23:43:21 GMT" depends-on-methods="com.hanoi1610.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="4358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@2a225dd7]" started-at="2024-07-17T23:43:21 GMT" name="logoutTest" finished-at="2024-07-17T23:43:24 GMT" depends-on-methods="com.hanoi1610.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="2936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@2a225dd7]" started-at="2024-07-17T23:43:24 GMT" name="quitDriver" finished-at="2024-07-17T23:43:24 GMT" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.hanoi1610.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-mike -->
+    <test started-at="2024-07-17T23:43:05 GMT" name="user-john" finished-at="2024-07-17T23:43:24 GMT" duration-ms="18995">
+      <class name="com.hanoi1610.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@125290e5]" started-at="2024-07-17T23:43:05 GMT" name="setupConfig" finished-at="2024-07-17T23:43:05 GMT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@125290e5]" started-at="2024-07-17T23:43:05 GMT" name="setDriver" finished-at="2024-07-17T23:43:11 GMT" duration-ms="5765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39ac0c0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@125290e5]" started-at="2024-07-17T23:43:11 GMT" name="setPageObjects" finished-at="2024-07-17T23:43:11 GMT" depends-on-methods="com.hanoi1610.tests.AbstractTest.setDriver" duration-ms="463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@125290e5]" started-at="2024-07-17T23:43:11 GMT" name="loginTest" finished-at="2024-07-17T23:43:16 GMT" duration-ms="4591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@125290e5]" started-at="2024-07-17T23:43:16 GMT" name="dashboardTest" finished-at="2024-07-17T23:43:21 GMT" depends-on-methods="com.hanoi1610.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="5017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@125290e5]" started-at="2024-07-17T23:43:21 GMT" name="logoutTest" finished-at="2024-07-17T23:43:24 GMT" depends-on-methods="com.hanoi1610.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="2758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.hanoi1610.tests.vendorportal.VendorPortalTest@125290e5]" started-at="2024-07-17T23:43:24 GMT" name="quitDriver" finished-at="2024-07-17T23:43:24 GMT" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.hanoi1610.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-john -->
+  </suite> <!-- vendor-portal -->
+</testng-results>
