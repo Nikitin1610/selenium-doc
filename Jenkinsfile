@@ -18,7 +18,7 @@ pipeline{
 
         stage('Push Image'){
             steps{
-                sh "docker push hanoi1610/selenum"
+                sh "docker push hanoi1610/selenium"
             }
         }
     }
