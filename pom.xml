@@ -14,7 +14,7 @@
         <testng.version>7.9.0</testng.version>
         <jackson.version>2.16.1</jackson.version>
         <!-- plugins versions -->
-        <maven.compiler.version>3.11.0</maven.compiler.version>
+        <maven.compiler.version>3.13.0</maven.compiler.version>
         <maven.dependency.version>3.6.0</maven.dependency.version>
         <maven.jar.version>3.4.2</maven.jar.version>
         <maven.surefire.version>3.1.2</maven.surefire.version>
@@ -164,4 +164,5 @@
 <!--        192.168.1.142-->
 <!--        docker run -it -v ${PWD}/result:/home/selenium-docker/test-output hanoi1610/seleniumone-->
 <!--docker run -e BROWSER=chrome -e HUB_HOST=192.168.1.142 -e TEST_SUITE=vendor-portal.xml -e THREAD_COUNT=2 hanoi1610/seleniumtwo-->
+<!--docker-compose logs vendor-portal-->
 <!--docker-compose logs vendor-portal-->
